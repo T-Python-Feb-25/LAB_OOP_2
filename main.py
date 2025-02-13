@@ -1,5 +1,5 @@
 from bankaccount import BankAccount
-ahmed_account=BankAccount("ahmed")
+ahmed_account=BankAccount("ahmed",1000)
 try:
     ahmed_account.withdraw(10000)
 except Exception as e:
